@@ -1,0 +1,26 @@
+
+// var idleTime;
+//
+// function timer()
+// {
+//     idleTime = setInterval(function()
+//     {
+//         if(alert('you have been inactive for 2 minutes. The page will refresh'))
+//         {}
+//         else
+//             window.location.reload();
+//
+//     }, 120000);
+// }
+//
+// document.addEventListener('mouseover', function()
+// {
+//     clearTimeout(idleTime);
+//     timer();
+// });
+//
+// document.addEventListener('keypress', function()
+// {
+//    clearTimeout(idleTime);
+//    timer();
+// });

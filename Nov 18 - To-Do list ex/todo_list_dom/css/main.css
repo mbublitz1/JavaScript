@@ -1,0 +1,27 @@
+body {
+	font-family: sans-serif;
+}
+.arrow .dn {
+	margin-left: 20px;
+}
+
+input[type=text], button {
+	border: 1px solid #333;
+	border-radius: 4px;
+	padding: 4px;
+}
+.todo-list {
+	border-top: 1px solid #333;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.todo-list>div{
+	height: 24px;
+}
+.todo-list>div>.arrow{
+	color: #999;
+}
+.todo-list>div>.arrow:hover{
+	cursor: pointer;
+	color: #333;
+}
